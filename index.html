@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name ="description" content="index,initial-scale=1">
+<link rel='stylesheet'href='c.css'type='text/css'>
+<script>
+function sh(){
+document.getElementById("table").style.display="block";
+}
+function d(){
+confirm("file downloading...");
+}
+function side(){
+var s=document.getElementsByClassName("sidenav")[0];
+s.style.display="block";
+}function cl(){
+var s=document.getElementsByClassName("sidenav")[0];
+s.style.display="none";
+}
+function kl(){
+var t=document.getElementsByClassName("table")[0];
+t.style.display="none";
+}
+</script>
+</head>
+<body>
+<header>
+<div class="head">
+<aside>
+<div class="sidenav">
+<button id="close" onclick="cl()">X</button>
+<h2>DASHBOARD</h2>
+<a href="#home">Home</a>
+<a href="#course">Course</a>
+<a href="#">Upload</a>
+<a href="#">Classroom</a>
+<a href="#">Question Paper</a>
+<a href="#">Login/Register</a>
+</div>
+</aside>
+<div class="notes">
+<i><h1>NOTESera</h1></i>
+<button class="side" onclick="side()"><b>. . .</b></button>
+</div>
+<div class="about"><a name="home"><h1>Get Most Detailed And Comprehensive Notes</h1><p>
+This is a platform providing downloadable notes to all students for free.you can choose over 20000+ notes
+all from experts.</p></a></div>
+<div class="course">
+<a name="course"><button id="se"onclick="sh()">Courses</button></a>
+<div class="table"id="table">
+<table>
+<tr>
+<th><button id="close" onclick="kl()">X</button>Choose Course</th>
+</tr>
+<tr>
+<td>Btech</td>
+</tr>
+<tr>
+<td>BCA</td>
+</tr>
+<tr>
+<td>MCA</td>
+</tr>
+<tr>
+<td>BBA</td>
+</tr>
+</table>
+</div>
+</div>
+</header>
+<div class="heading">
+<h2>WE PROVIDE</h2></div>
+<div class="offer">
+
+<div class="card">
+<div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQUwesJWtfWrLt9_kre5WOhjspQE58rUIS60Q&usqp=CAU"/>
+  <h3>Categorized Notes</h3>
+</div>
+<div class="para"><p>To make it easier for the students. We provide resources in a specilized list where students can find their notes
+with reference to their respective colleges ,spectifically categorized with different varied course.</p>
+</div>
+</div>
+<div class="card">
+<div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7uI1-8A-C41o7l65Q2jf6Tek3iZ4W0oZIXw&usqp=CAU"class="card-img-top" alt="..Notes.."/>
+<h3>Free Notes</h3>
+</div>
+<div class="para">
+<p>For enthusiastic learner like you, we are bringing free notes without disturbing your convenience.
+Notes pickup brings you a whole range of notes provided free of cost so that you do not need to worry about your grades
+as well as missing classes anymore.
+</p>
+</div>
+</div>
+<div class="card">
+<div>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACoCAMAAACCN0gDAAABelBMVEUuLlZYWKb///8aGjFJSIwAt+tWVqNKSY8XFy04OFksLFUeHk0oKFIiIk8lJVFaWqsYGEpbUqKioq9UU5UVFUlXV4iNjZ9EQ4ovI0xycqQwHkgvIkwbG0wTEySZmagAptus4fcKiLdqzvTU3eU3RWkmmdS+vsdkZH0AntKh3fcAr+S75vgHbpuW3fkqOGATEEc/YoS2tsFCW5ozi8hVVHAlMFoAgLAAAAfLy9Kdrb0AAEIAsuoAk8SD1PXk5OhzdIqBgZW9ydXq9/0AACRHR2gAAD4AdJYAABtoaIEfIz4AABfl8fcuwfIXAD/S8v8qR29MbLKRkZhui6UIOmg5ZYlQrdQnEUKHtc8ASnhOdZZFjLGmvs8fWYTM2OJ+udYAZpQNKVkAADdKia5yl7JRX36nusqFlamGpL9Bz/9pwuYAIlYAGE+42eoYADYAMmI8ptJYnMFIcKVERHylpcYHg6pIb7WKibNlZJpra3VHR14DAywxMkZPT1ywsbaAc+TDAAATiElEQVR4nO2d/X/TRraHhYoJHo2EVqtVtbZWaTBXTk1qrVslVU2QRFCoSwLZNiyki2m6faGFS0svt3cvdOn/fs/MSH4Jli3HYyfh6vsDH72MxponZ845MyMJQShUqFChQoUKFSpUqFChQoUKFToVwrIkSfgk7wAhjDE6yTvIlnm/TeS6qkzuEB9+Ydta/QRxoebed999F59KXObGZRG0tRM4RlkWhMrye7Bryyd4R5vX4Q589eTuIFvmCqXFFFqngdbKGaEldpTTQOvyGaEVuKeB1mm3rWD/3t8JJTEepIVMSXd1CSMsy3Lq93HVgoPWAE5WjAUJUkAhpZFpwTGFnK5aEEKUfvHqUHFEi+OqCpWS30AVZltt5RT6+YSWW21e2yGe636fVrW59uBRzdfKB18aj40OxWXeP/jHwxs1vxW5EqsAVfbXHtyo1RxDUEn7UPfLx48Nb3/l4aOaE7qocsC2tnFafANqrTmRYtH97hdQPIZaa7WWpyO4/CtyB7UoEk4froSWLqDlq7AR9Wkl0RL0PukaDuka1cMnW2mv1SQKZ33lg/RIi5iDufx+egkxkfXN5HRQJrhwc/W9XgUWFK9cIz97PTnYsqqb19Pz5VNLa/tOt0TusN6jZW72KIhbCS2zT4b8+aEzoXUKOXV7CAnV1feTK6ie9a7wAQ7ea9ztFye+qdIYuB5++Kc+rVNrWzvf32Ct6MXEaur903YDrUrakuSYLwkoMZXaM3qsZiW0SKEesWSrjlGTwQpqd+mhlt6nlZSunAHbSqVZCS2pWdqhB+K95x8ktMzDXfb3967cewKt9uvYXKOHbOQ+XaP1RHJKq9NMsYVNRkCTkj+BIblfb1xnAFNanb3ndMNbv/KcxsR4umweYwUL2JJlZXLZ42uIFhhLQus+c1qhi3GyCbSWWdhUIUjiDa3TxqhK22pvw9DyDmUJ4YJBqkuYxQ0xVLFwjZhUS21eIxYUbkuy9BOt1VcTWrFk7pW2KO4kJrq5B1+YEPLqUUfxHNuOYKcXcOdJywbPktKibfZdWoa6Jkffu0atx2LXSXBXiLXQZrpOtmNGK2hDK1gv1aEwPea4DOhgccRo+RBlmhSpAT4gf74FflKWO1okRY5m1HG5A1Ji39dihOYBLPHyhhF52yQnSP0WJWTQrIq5EmgrjQPSwF0kHXFQYYWRIQ589YOEOKvBv9OLsj3FjJYGfwLUo3U5Jy1ZLXuyEdh1hBRLhp5IJi/gX1Wta3JcluZGq01+TOjT+pq645A6AZZKOC5FE1jjaUXMKlvQfJYMgNkIibncGfKRVN59RktKo2Nu24LbsH0nxIouvzm9g2Xs1ext7jMpvXwr0Qjbqia2xdBYgxezQ7UBJbZFmp9cp/ZpUew7A6WDhJbRm/3IaVsS9uTQVqxsHsiNfI83rgxaLO1y2rQI29ZZRuaxoGOSoRDuUnPbdnvSleoYWhRu7Z8DxVFlBK2JtoUVzY8UPGEwK8cx5twbs2glMZG4H2ZA0GpqbwF17/jQ8OBOMPU1NgkGZlMok146hpa7x2KiSouXEfWTU9sWknAcdNwcmQLCnqNPLjaFMmhBvrVF3VDbZYkUySA2fiQbgbfd3n8OpQxXSBIou+3e6e7uiBo4vzG09GR8AJW6h092AltHI2mNsy2sxg748ZxdTDZaXHFl+a1qGr+2En8MrTbTMV6SnLcgPiYDn9pVdihG42hBxrHDirNcPhhNa4xt4bjlx1N4I93QeE4+ZdES8ObgmJC2GjWXB0Z5YgC3nWRcqaDV42gJZnd3sHhHmcq2kCIrdkefynVLIU9Pn0lLqGykI7a7aasRHhhWO8rRSYWgrqaZaJ8WaXY/lzD3+qPwIJbTOQhKq5HQypqXx5Zhp4lOfuHyjISGKut+88knmtHzmebat7BPJ7OqB/94sLMT+CEtwnKv6v43Dx6Rg5qnsiwHVcnc1E5Qc0JEJ/8O0wrQIbmOjETYj0T0tNn95SFUUGt16AQj+z0S6tkWDL37hYfv1PPtY+TnOHQ4TsPiqmVJA33blGE/mbmrqi6Z9qRFkrsnc6LuNplR7V3BikE51haspBWg3nVDNci0uKUc/b10Cw0U7v8IRk58rHxAd6ZxdG+DkOR18DHXhLHXmsMYaD5CPFadkW77x5/tkjV+toXA/klf5L5oUHHJdPX+d+XZ7xXT1OzYkrnRQt1vnVbr+08ew/iUV51U66s7toy6EHFnvVdo7IzzCR1euMy1NCcIPK64miWxZWGgFcxWLXIhPs5m91bAK6EntLynP//1iw84T4RTWrP3RFx2DGtysbFSfV5untCqKwhXDj+AnBTJGEsqySeQYqlqEoUw9AU4rPaDEj0rI0iuETlrJtfI5ChZrEWCiRui1lYEM8kUyPXJJlIUuMhSc8U4pdaZFZYgtXg9sUNpkSQHbMGxuka9+8C3FZKFfu87NktB7xne14c/OP7v9SQjrR6Qs0Z5/0ujLBwa9UO4BqfXxD9/acTr9x5fF/3HEYIaydTO+j24vhUSf4v2vojMg2+/hwR34p+czLHP7nOUiNdEV4/W3q7Ykq+J710lK3/VlWR8ormU48MnbNen02+9s99eF731Er3GkSobyRDoh8tip/kj214nfwOg+yQd7IC1bVwVV+7S4fqEPoZ4jYm5BUXqt3RJ1TfviuH6MplGaFsm7DjC9tPNq6KjE1p3RT/efgo4Akif6NkyPXuX0gIIbYkcJYWA5FXo2/dd6In/bAsN8F4miYyR/p9rMIKMMaF1N/C2n67C1WObIdktLoMWFPPyyIRWS/vk+2dbYDiEVkcSSCTT2khAxFw8DLREx8WwC74N2g5X9M4yWnVZMA+vi61tUogEWbBW5uUJLRVBEZIDVA8uizWrCrRE6GOouUsH35mStd9dLq2UB8bBs6mXQQR2GzWXxZ1tMhuwFWzrRD81tnyX0GIOqwL2o1RKdP2L7C5vUVqBSrcDlkFWwGaGaLlgUyGb4Qe+9QrQMgglc3Wrlh3akSQonEKZpHkcbSv0rlzBOrQHaJFpFbwrBjeYwOQs4v9ZjyAG1Nn/UbRZM0xiekDLV5mhWL0ah2jdIYzp7RLnqN0HWrQHAq1AymoGxjOMdY7Icnj2RE9OlioJLWj53o/iTpCqVoZ2J0+/ob3LYgTdKUyygi7z8mSiEM4YSSEoMGxbQCVx59AnnTtAi0b06ubdIMuJ45jjgo3EbVidxkQqoEVbvivayTrOnTb18ol/IQOZ8KDHhZhaj9ZuanGk0LBtEVrszwGFWy7QKqe0MvwJKpPomUMoS0OFuE02j6AlgGdK1vTNA/JgTEmssV3icgRlV/S32e4Ki4mECvFm7Cjx4kO0foIOy9JDE4wxIj0Rj6dFphUnWxaSXFSOr4xUc92spjWgMrc+PYoWaS/NoEkQ0yTi5Tt0VWsfQKkk2+oQWyG7PVrEh0XEZ5vru0djIvRsZxuRaT4IC5jUjsbSwuU8MUxStODZk9JoNRqNzcMKg2Q5XEfVR2kJqCGKYVvXD8kMArGtLTFSdZ3kmDFG6+QsBMzuE3GrR0tAy71CW8O0IGd4H9I3V//5OeR0sjmJFi7XcoxUdEMUL1/LgJUg2zNJScnhNv4dptVIaBGrCUhADDyF0HrwHtmFBNwDF4D3d7fY2WfXB2g1n2+xQo8gcGKBHV9v0LE1SbEekQfqDFWYRCufz3I1UdwdDwu0R0YpZWfmkWbv3rpfDSzQbfjMgSN57eGOGAS2junIR9v/5Rnsa+xZMjj7APb8zsFXTry+kl5TOaRHw/1fSDyD42QlYuUGXc85+OURnGvFFnk35gH7Y5trD1sjZlZhVDcZlhwBrEmsQE0Y9YccF8mQNDBuNfU0fJiqta64dGaB0FJlVcZ6LzsyrafY0hW4FgZC6sA1WIKjVVqjSZ/6Ts7Csa+xziIjlqy0ljfTLYzKeRbBrEC8OtGyQCtVCBmLXMQYyCCGj48uPduPYaGWJ89SOuC0csAqlao45pXI51IWrblI9nPN4FotUcw2rWsDp/Z0f6EvxCHw/YuiJTmdXJmk6gzSuvfXIf2wtdOndSgs+h2Y5pUF/ZCMhHyTBbovbvVprZt4QJYxGAAONa4PQuTQXB54HSHVzpt0D9NqDl0lD9OKzszS63TS7dwzpVPQekthyXbLzVs2P61vqvzv9BQIyVr+9GMK2zL53+rJC5eFKeZVjtAaOle1B2mtvY20cNk/CgsrMsZHJq3SDXeIVmNYpd0+rN01M8cE2BkTEvyjS9pWHNrhd38a0oveVuvRjf/Ipf/6U4ZevHgxxwY1Jxc5vqSgfiTRInMM/3r33aVBnT+/dCnRH/Lq3KUswZkL82qPudadX5anCOUjsCSA9cd3zx/VhXOcNacGmSubc6oZslLj6EM0SBDF/34T1nnesC6dn0+LKo2Vzcp8qla1Nz6ooESkH74Ba4k3rXPn/jKfNpV+LXXnEkhk4831e9oR3zQt7h3x3KV33plDk3B399flxjxyF1R23ly/XyStOeAy13Z/3dzd4D+MQJIwYiQ3mtYcOiKhxR+XuVJavVUq7fHuizgeuY68WFrccZnLQKtRWuXs6JEy+h2n0bT4d8SEFm9c643S8q1N7sMulPFo8KJp8cWF9mDMdevXN8b7M9aK4/roofTCaXHFhbuEFjiuEsekCyl1nDE+GE2LP6w+LZ64zA1KaxX+5TcAcluZjzucAC2OuKrgskorxHGVGtyeQdPszNWYkbTmEBIHafHDVWmQTkgdV2mDj6PH4ZiJ5ROhxQ9XidK61aALmjysS8Hjvj5wMrQ44UJdOkV5i3bF0iqHjF413ny5dUAnRIsPLnMtofUrp7luNXLGrlydFC0uuGDcw2jdYrPds9Yn25M+vHICMZEbLhj3EHVZDrExa4aKcWfCmujJ0eKBq8FomXsrjbV1c0ZYVjjxJbzF5/L8cNFxD/VXCFVnZSW4hjPxXeuTpPXOjA1kIbG0u2FyeKVc1nK86nSitGa0LjruKa00q5I/My4c2zle213w/BZXXNXNXXDtVSTgzkz1kIcdvElfzaLKmGleFK2ZcFVX1xJ3laup2cKKPzYp7Wmh8/KjNFMXStNReaZHKlHsT0odEmXQ4t8Vs2hxSVPVWV6Dw7Lm5bTNDFr8jSuTFg9cODz+i85qHeX+aGsWLe7GlU2LAy507KiI5dYUoLNocTeuMbR44PKOdx32/HCKJ7EzafEOi+NoccB1vE+lyUpUnyY+ZNPi3BfnTavj536WtneNZAvTvWyTTYtzX5wzLUFt5XtdYqDpdX/aJ/zH0OKLa960BLk21ZflkGz7Od+w6GscLa6dce60cNnL/4UnJMUIqVOH0bG0zi/xM68Ln82ZFlk1zWsssq61Mj/5MEbjaXHktTR3WpBGBPVcL98qRi081ofCJtHixWtpAbQEjB17knUh2YLUf2qPxTSZFhdgS+cXQUtAejTh09KKYPihctzpsFy0KLALx0d2gVSwCFpk9bQTeKM/mYwUScahb8zw2ca8tCixJcKMKj+oCxfI4/cLowW8yi3Io2R1KEBiDIOcqKUpWJ3lI07klfw/j3gCnLuWLi6IloAsIYZkKoqRoKiWJQvYRZ1IqfvGFClGRtXl0c/L89dfFkWLtEqQBaMVSpHvOIZUFx2tjrHF4X/TIa+Zj3gXI1MfDihvFwYtCQuzLSbwUopA/mMYAWHX4vWFPiQ7YpC/2R8OfElj96PclJfQOFjzoNVvINfayDuZfx5+KWqMPiwN6KPcly2N64fzpcVXjFZu2xqmldu2CloFrfNT9cTcHfHtpDUx7fzbEK0/5E1SL72NtCbn6AWtHq0cs38FrR6tHMO/gtZUtIay04LWBFofDeh/8sL6/0rr3NBHDQpac1FBq6BV0JqggtY0KmhNo4LWNCpoTaOC1jQqaE2jgtY0KmhNo+nmtwpaBa38Gpxpnhuut5LW+d5DNJx17q2kNS+9NStkuD7yO4sFrZFCSBRbc6a19GLsQyNniJYgQVf837niGv+I7tmiJbiA619/zL9KP7VefDbetM4ULUEW6i9flecjAQmTWJ0xWgLC+OLcNAnVmaNFlKNRc9MUt4ngL4uVIWH2dfy5kRmp00oLYUWWLVV3t9vttoqE2Kt3wgF16p4XlwXFcuH8tuvquq5akizLCqX49uHKuCEsS6orx/UwsluOHwTiZAVB4Pu+09JsIwo7gFFQVJfQkwAeX3anhhaYk6S3Jc/QnFyMJvGj9MJ6LID5uS4zPWp5ZxLXECnoUoIXav7OjJiy6NV8H+BFYR0MT3Zdiu544E6WFkKy2pZDbWZ7yk0usbuoEyM3tToaNU4prosXb978lP60Yqlx5CwK1Eh2BJ1BjK6ceDt5wutmiwQFnG6/8+ql8buAoEuErRMkdVTU6oiz82IJfB0Js/Ioq1sAJYrp49uvotSJC7HhnzSfcQJf57QSV6fovTCB5omLUAJMv/37NZiTP2hIwolxmF59X+eVZUjwbt/+9NNPb1LlHbqMIcQYgS19/Nurl5+PTgnOEq0jIvmd87v2eRS+fP361b8/+w3sYQDgzXHjv4sJnZuM0O2bv3326vXLyP7d98c5pTNM64h2wPRov9U0+/PPP39JEL4qfyYTiB8P61OAU371+vXLl1BQawGhnLnA20NrESpoTaOC1jQqaE2jgtY0KmhNo/8DF0KiqZjYVmQAAAAASUVORK5CYII=" class="card-img-top" alt="..Notes."/>
+<h3>Placement contents</h3>
+</div>
+<div class="para">
+<p>
+Every student is concern about the placement in a good Company Hence we provide you bunch of content to 
+prepare for placement.
+</p>
+</div>
+</div>
+</div>
+<div class="he">
+<h2>HOW NOTES HELP</h2>
+<p>1.Dictation kills classroom time,and conceptual disscussion is non-existent these days.<br>
+	2.Teacher share their notes teach freely in the classroom and discuss in the concept.<br>
+	3.Notes are categorized hence can prepare accordingly.
+	</p>
+<div class="btn">
+<button onclick="d()"> <i class="fafa-download"></i>Download</button>
+<button style="background-color:orange;">Read</button>
+</div>
+</div>
+<div class="s-wrap">
+<h2 style="text-align:center;font-size:28px;">What they say</h2>
+<div class="s-move">
+
+<div class="slide">
+<h1>Mr.....</h1><p>Dictation and teaching cannot be done simultaneouly in class thanks to notes ,I don't have to dictate notes in the classas i upload
+them on the website. The faculity member has come together through this way. 
+</p>
+</div>
+<div class="slide">
+<h1>Ms.....</h1>
+<p>Dictation and teaching cannot be done simultaneouly in class thanks to notes ,I don't have to dictate notes in the classas i upload
+them on the website. The faculity member has come together through this way. 
+</div>
+<div class="slide">
+<h1>Mr.....</h1>
+<p>Dictation and teaching cannot be done simultaneouly in class thanks to notes ,I don't have to dictate notes in the classas i upload
+them on the website. The faculity member has come together through this way. 
+</p>
+</div>
+<div class="slide">
+<h1>Ms.....</h1>
+<p>Dictation and teaching cannot be done simultaneouly in class thanks to notes ,I don't have to dictate notes in the classas i upload
+them on the website. The faculity member has come together through this way. 
+</p>
+</div>
+</div>
+</div>
+<footer>
+<p>support@notesera.in</p>
+</footer>
+</body>
+</html>
